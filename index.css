@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 2.8rem;
+  color: purple;
+}
+h2 {
+  font-size: 3.5rem;
+  padding: 5rem 0rem;
+}
+h3 {
+  font-size: 2rem;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+}
+button {
+  font-size: 2rem;
+}
+nav {
+  background-color: rgb(255, 230, 0);
+  padding: 2rem;
+}
+nav h1 {
+  float: left;
+}
+nav ul {
+  float: right;
+  list-style: none;
+}
+.clear {
+  clear: both;
+}
+nav li {
+  float: right;
+  padding: 0rem 2rem;
+}
+.hero {
+  background-image: url("/code\ layout\ png.jpg");
+  height: 80rem;
+  background-size: cover;
+  text-align: center;
+  padding-top: 10rem;
+  color: white;
+  text-shadow: 3px 3px 10px black;
+}
+button {
+  border-radius: 20%;
+  background-color: rgb(56, 53, 53);
+  color: seashell;
+  border-color: springgreen;
+  padding: 1rem 1rem;
+  margin-top: 5rem; /*border:none  ??*/
+}
+.form {
+  text-align: center;
+  background-color: rgb(36, 153, 221);
+}
+form input,
+form label,
+textarea {
+  display: block;
+}
+form input,
+form label,
+textarea {
+  margin: 1rem auto;
+}
+label {
+  font-size: 3rem;
+}
+form button {
+  border-radius: 20%;
+  background-color: rgb(56, 53, 53);
+  color: seashell;
+  border-color: springgreen;
+  padding: 1rem 1rem;
+  margin-top: 5rem;
+}
